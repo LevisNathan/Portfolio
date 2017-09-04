@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color:grey;
+}
+header, main, nav, footer{
+    text-align: center;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color:cyan;
+}
+nav a:hover {
+    border-bottom: 2px;
+    font-size: 2em;
+    transition: .9s;
+}
+/*below is for just the index html*/
+#me,#pic{
+    height: 500px;
+    width: 375px;
+    float: left;
+    text-align: left;
+}
+#p2, #motopic{
+    height: 500px;
+    width: 375px;
+    float: left;
+}
+#welcomeText {
+    float: left;
+    text-align: left;
+    padding-top: 50px;
+    
+}
+footer {
+    clear:left;
+}
+/*this part is for the about page*/
+table {
+    padding-left: 9%;
+}
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong {
+    color: grey;
+}
+
+#table-header {
+    background-color: #001e00;
+}
+.table-row {
+    background-color: darkgreen;
+}
+ul {
+    text-align: left;
+    padding-left: 450px;
+}
+.hobby {
+    color: white;
+}
+.words {
+    padding-top: 5px;
+}
+#enjoy {
+    padding-top: 100px;
+}
+email {
+    color: darkred;
+}
+/*below is for the contact page*/
+#contact {
+    text-align: center;
+}
